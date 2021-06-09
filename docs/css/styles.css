@@ -212,11 +212,17 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #c34e2e;
+  color: #d6d6d6;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
+  text-decoration: none;
+}
+.fcc-btn {
+  background-color: #c75b13;
+  color: rgb(7, 4, 4);
+  padding: 15px 25px;
   text-decoration: none;
 }
 
